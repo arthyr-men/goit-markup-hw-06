@@ -988,18 +988,11 @@
     background-color: #F4F4FD;
         }
           /*footer-2*/
-          .container-peage-footer-social-media
-          {
-         
-            position: absolute;
-            width: 208px;
-            height: 80px;
-            left: 540px;
-            top: 1864px;
-            
-     
-          }
-          .peage-footer-social-text{
+           .container-peage-footer-social-media
+           {
+            margin-left: 120px;
+            }
+           .peage-footer-social-text{
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -1007,7 +1000,9 @@
             color: #FFFFFF;
             margin-bottom: 16px;
           }
- 
+          .container-peage-footer-logo-link{
+            padding-left: 5px;
+          }
     
    .footer-class-portfolio
     {
@@ -1034,8 +1029,9 @@
           color: #404bbf;
         }
         .container-peage-footer-subscribe {
-          display: block;
-          margin:auto;
+          display:block;
+         margin-left: -50px;
+          
       }
       .subscribe-text {
         font-weight: 500;
@@ -1044,10 +1040,12 @@
         letter-spacing: 0.02em;
         color: var(--background-white-color);
         margin-bottom: 16px;
+        
     }
     .footer-form {
       display: flex;
       gap: 24px;
+      
   }
   .footer-modal-mail {
     width: 264px;
